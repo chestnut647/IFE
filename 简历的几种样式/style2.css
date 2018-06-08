@@ -1,0 +1,55 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    width: 70%;
+    margin: 0 auto;
+
+}
+/* 采用浮动布局 */
+aside
+{
+    float: left;
+    width: 20%;
+    height: 600px;
+    background-color: #0080ff;
+
+    color: #fff;
+
+
+}
+aside h1
+{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+main
+{
+    float: right;
+    /* 中间留了5%的间隙 */
+    width: 75%; 
+    height: 600px;
+    
+}
+
+main section .s_title
+{
+    margin: 20px 0;
+}
+main section .c_title
+{
+    font-weight: bold;
+    margin-right: 5px;
+}
+main section .s_content
+{
+    margin-bottom: 30px;
+}
+main section .c_content
+{
+    margin-right: 30px;
+}
